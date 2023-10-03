@@ -13,7 +13,7 @@ function TodoList() {
     const addTodo = (event) => {
         event.preventDefault();
         setTodos([...todos, desc]);
-        setDesc({description: '', date: ''}); // Resetting the form fields test
+        setDesc({description: '', date: ''}); 
     }
 
     const deleteTodo = (index) => {
